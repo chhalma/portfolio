@@ -142,12 +142,23 @@
                 </div>
 
                 <div class="project-card">
-                    <div class="project-title">Activity Timeline</div>
-                    <div class="project-description">Interactive timeline chart showing development activity over time</div>
-                    <div class="project-demo">
-                        <canvas id="activityChart"></canvas>
+                    <div class="project-title">Pharma Content Compliance Checker</div>
+                    <div class="project-description">
+                        AI-powered pharmaceutical content compliance checker built on AWS PartyRock. 
+                        Reviews marketing text against UK ABPI regulatory codes, flags compliance 
+                        issues, identifies off-label promotion risks, and suggests corrections.
+                    </div>
+                    <div class="project-demo" style="flex-direction: column;">
+                        <!-- Screenshot -->
+                        <img src="images/pharma-compliance.png" alt="Pharma Compliance Checker Demo" 
+                             style="width:100%; border-radius:8px; margin-bottom:10px;">
+                        <!-- Centered button -->
+                        <a href="https://partyrock.aws/u/Chhalma/lvREKQ06A/Pharma-Compliance-Checker" target="_blank" class="demo-link">
+                            Try Live Demo
+                        </a>
                     </div>
                 </div>
+                                
             </div>
         </div>
     </section>
@@ -201,28 +212,43 @@
     </section>
     
 
-    <section id="job" class="section">
+ <section id="job" class="section">
     <div class="container">
         <h2 class="section-title">Experience & Volunteer Work</h2>
         <div class="job-grid">
-
-            <!-- Job 1: AI-Aware Intern -->
+            <!-- Job 1: AI-Aware ML Engineer -->
             <div class="job-card">
                 <div class="job-header">
-                    <h3 class="job-title">AI Research Intern – AI-Aware Ltd</h3>
-                    <span class="job-duration">Jul 2025 – Present</span>
+                    <h3 class="job-title">Machine Learning Engineer – AI-Aware Ltd</h3>
+                    <span class="job-duration">Oct 2025 – Present</span>
                 </div>
                 <p class="job-description">
-                    Developed and optimized AI inference pipelines for NLP models using PyTorch, ONNX, INT8/INT4 quantization, and TensorRT.
+                    Architect and own end-to-end delivery of a production AI text detection system — from model development to cloud deployment.
                 </p>
                 <ul class="job-keypoints">
-                    <li>Achieved up to 4× FP16 inference speedup on CPU and GPU.</li>
-                    <li>Containerized pipelines using Docker for reproducible deployments.</li>
-                    <li>Performed multi-stage benchmarking and quantitative analysis of full-precision vs quantized models.</li>
+                    <li>Developed RoBERTa-based classifiers using Hard Negative Mining, achieving 75% reduction in false positives.</li>
+                    <li>Designed and maintain cloud infrastructure on Microsoft Azure including CI/CD pipelines and containerised deployments via Docker.</li>
+                    <li>Implemented production components including authentication (Keycloak) and payment systems (Stripe).</li>
+                    <li>Designed prompts for synthetic data generation using LLMs for model fine-tuning.</li>
+                    <li>Planning agentic ML retraining pipeline using Claude API with tool use for automated model orchestration.</li>
                 </ul>
             </div>
-
-            <!-- Job 2: Geta Apps Volunteer -->
+            <!-- Job 2: AI-Aware Intern -->
+            <div class="job-card">
+                <div class="job-header">
+                    <h3 class="job-title">Machine Learning Engineer Intern – AI-Aware Ltd</h3>
+                    <span class="job-duration">Jul 2025 – Sep 2025</span>
+                </div>
+                <p class="job-description">
+                    Engineered and optimised multi-stage benchmarking pipelines for DeBERTa V3-Large using PyTorch, ONNX, and TensorRT.
+                </p>
+                <ul class="job-keypoints">
+                    <li>Achieved up to 4× inference speedup through multi-batch optimisation across CPU and GPU environments.</li>
+                    <li>Analysed latency, throughput, and memory trade-offs across full-precision and quantised models.</li>
+                    <li> Containerised pipelines using Docker for reproducible deployments.</li>
+                </ul>
+            </div>
+            <!-- Job 3: Geta Apps Volunteer -->
             <div class="job-card">
                 <div class="job-header">
                     <h3 class="job-title">Volunteer Software Developer – Geta Apps</h3>
@@ -237,27 +263,9 @@
                     <li>Integrated AI decision-making logic into matching algorithms.</li>
                 </ul>
             </div>
-
-            <!-- Job 3: Smile for the Future Volunteer -->
-            <div class="job-card">
-                <div class="job-header">
-                    <h3 class="job-title">Volunteer Web Developer – Smile for the Future Charity</h3>
-                    <span class="job-duration">sep 2023 - Oct 2024</span>
-                </div>
-                <p class="job-description">
-                    Designed and developed the charity website using Django and WordPress.
-                </p>
-                <ul class="job-keypoints">
-                    <li>Implemented responsive front-end and CMS features for easy content management.</li>
-                    <li>Enabled online donations and volunteer management system.</li>
-                    <li>Showcased full-stack development skills and initiative for nonprofit work.</li>
-                </ul>
-            </div>
-
         </div>
     </div>
-</section>
-
+</section>   
 <section id="education" class="section">
     <div class="container">
         <h2 class="section-title">Education & Certifications</h2>
@@ -268,10 +276,10 @@
                 <div class="edu-logo">
                     <img src="images/City_logo.png" alt="City University London">
                 </div>
-                <h3>MSc Software Engineering</h3>
-                <p class="university">City, University of London</p>
-                <p class="duration">Sep 2023 – Present</p>
-                <p class="details">Expected Distinction</p>
+                <h3>MSc Software Engineering with Cloud Computing</h3>
+                <p class="university">City St George's, University of London</p>
+                <p class="duration">Sep 2023 – Dec 2025</p>
+                <p class="details">Distinction (80%)</p>
             </div>
             
             <div class="edu-card">
@@ -281,7 +289,7 @@
                 <h3>MSc Information Technology</h3>
                 <p class="university">University of Dhaka</p>
                 <p class="duration">Jul 2009 – Dec 2010</p>
-                <p class="details">CGPA: 3.76/4.00 (UK Distinction Equivalent)</p>
+                <p class="details">CGPA: 3.76/4.00 (Distinction)</p>
             </div>
             
             <div class="edu-card">
@@ -291,10 +299,21 @@
                 <h3>BSc Computer Science & Engineering</h3>
                 <p class="university">Bangladesh University of Professionals</p>
                 <p class="duration">Feb 2005 – Dec 2008</p>
-                <p class="details">CGPA: 3.35/4.00 (UK 2:1 Equivalent)</p>
+                <p class="details">CGPA: 3.35/4.00 (2:1 Equivalent)</p>
             </div>
 
             <!-- Certification Cards -->
+            <div class="cert-card">
+                <div class="cert-logo">
+                    <img src="images/aws1.png" alt="AWS">
+                </div>
+                <div class="cert-content">
+                    <div class="cert-name">AWS Certified Developer – Associate</div>
+                    <div class="cert-issuer">Amazon Web Services</div>
+                    <div class="cert-date">Apr 2026</div>
+                </div>
+            </div>
+
             <div class="cert-card">
                 <div class="cert-logo">
                     <img src="images/udacity.jpeg" alt="AWS">
@@ -305,29 +324,7 @@
                     <div class="cert-date">Sep 2025</div>
                 </div>
             </div>
-            
-            <div class="cert-card">
-                <div class="cert-logo">
-                    <img src="images/udacity.jpeg" alt="Udacity">
-                </div>
-                <div class="cert-content">
-                    <div class="cert-name">Programming with Python Nanodegree</div>
-                    <div class="cert-issuer">Udacity</div>
-                    <div class="cert-date">Feb 2025</div>
-                </div>
-            </div>
-            
-            <div class="cert-card">
-                <div class="cert-logo">
-                    <img src="images/aws1.png" alt="AWS Academy">
-                </div>
-                <div class="cert-content">
-                    <div class="cert-name">AWS Academy Graduate</div>
-                    <div class="cert-issuer">AWS Academy Cloud Developing</div>
-                    <div class="cert-date">Aug 2025</div>
-                </div>
-            </div>
-            
+                                 
             <div class="cert-card">
                 <div class="cert-logo">
                     <img src="images/oracle.png" alt="Oracle">
@@ -342,7 +339,6 @@
         </div>
     </div>
 </section>
-    
     <section id="github" class="section">
         <div class="container">
             <h2 class="section-title">GitHub Activity</h2>
@@ -354,31 +350,32 @@
             </div>
         </div>
     </section>
-
-    <section id="contact" class="section">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <form class="contact-form" action="https://formspree.io/f/mblzopoq" method="POST">
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="subject">Subject</label>
-                    <input type="text" id="subject" name="subject" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                </div>
-                <button type="submit" class="submit-button">Send Message</button>
-            </form>
-        </div>
-    </section>
+<section id="contact" class="section">
+    <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <form class="contact-form" action="https://formspree.io/f/mblzopoq" method="POST">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <!-- Important: add this hidden field -->
+            <input type="hidden" name="_replyto" value="chhaya.mist@gmail.com">
+            <button type="submit" class="submit-button">Send Message</button>
+        </form>
+    </div>
+</section>
 
  <footer>
     <div class="container">
@@ -399,14 +396,13 @@
             <!-- Contact Info -->
             <div class="footer-section">
                 <h3>Contact Info</h3>
-                <p>📍 East Dulwich, London, SE22 9JW, UK</p>
+                <p>📍 East Dulwich, London, UK</p>
                 <p>📞 07578956460</p>
                 <p class="email">
                     <span>✉️</span>
                     <a href="mailto:chhaya.mist@gmail.com">chhaya.mist@gmail.com</a>
                 </p>
             </div>
-
             <!-- Social Media -->
             <div class="footer-section">
                 <h3>Social Media</h3>
